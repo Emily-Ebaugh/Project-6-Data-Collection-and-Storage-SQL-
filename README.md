@@ -2,7 +2,7 @@
 Finding the top ten most popular neighborhoods for taxi rides. 
 
 
-DATASETS
+## DATASETS
 
 instacart_orders.csv
 
@@ -14,19 +14,11 @@ aisles.csv
 
 departments.csv
 
-TEMPLATE NOTEBOOK
+## TEMPLATE NOTEBOOK
 
 EDA_final_project_template.ipynb
 
-Congratulations, you’ve completed the sprint on EDA! It’s time to apply the knowledge and skills you’ve acquired to an analytical case study.
-
-When you’ve finished the project, send your work to the project instructor on the platform for assessment. They’ll give you feedback within 24 hours. Use their feedback to make changes, and then send the new version back to the project instructor.
-
-You may get more feedback on the new version. This is completely normal. It’s not uncommon to go through several cycles of feedback and revision.
-
-Your project will be considered complete as soon as the project instructor approves it.
-
-Project description
+## Project description
 For this project, you’ll work with data from Instacart. 
 
 Instacart is a grocery delivery platform where customers can place a grocery order and have it delivered to them, similar to how Uber Eats and Door Dash work. This particular dataset was publicly released by Instacart in 2017 for a Kaggle competition. 
@@ -41,7 +33,7 @@ For more tips about the project, check out this video:
 
 
 
-Data dictionary
+## Data dictionary
 There are five tables in the dataset, and you’ll need to use all of them to do your data preprocessing and EDA. Below is a data dictionary that lists the columns in each table and describes that data that hold.
 
 instacart_orders.csv: each row corresponds to one order on the Instacart app
@@ -67,19 +59,20 @@ aisles.csv
 departments.csv
 'department_id': ID number that uniquely identifies each grocery department category
 'department': name of the department
-Instructions for completing the project
-Step 1: Open the data files (/datasets/instacart_orders.csv, /datasets/products.csv, /datasets/aisles.csv, /datasets/departments.csv, and /datasets/order_products.csv) and have a look at the general contents of each table. Note that the files have nonstandard formatting, so you'll need to set certain arguments in pd.read_csv() to read the data correctly. Take a look at the CSV files to get a sense of what those arguments should be.
+
+## Instructions for completing the project
+### Step 1: Open the data files (/datasets/instacart_orders.csv, /datasets/products.csv, /datasets/aisles.csv, /datasets/departments.csv, and /datasets/order_products.csv) and have a look at the general contents of each table. Note that the files have nonstandard formatting, so you'll need to set certain arguments in pd.read_csv() to read the data correctly. Take a look at the CSV files to get a sense of what those arguments should be.
 
 Note that order_products.csv contains many rows of data. When a DataFrame has too many rows, info() will not print the non-null counts by default. If you want to to print the non-null counts, include show_counts=True when you call info().
 
-Step 2: Preprocess the data by doing the following:
+### Step 2: Preprocess the data by doing the following:
 
 Verify and fix data types (e.g. make sure ID columns are integers)
 Identify and fill in missing values
 Identify and remove duplicate values
 Be sure to explain what types of missing and duplicate values you found, how you filled or removed them, why you used those methods, and why you think these missing and duplicate values may have been present in the dataset.
 
-Step 3: Once the data is processed and ready for analysis, perform the following analysis:
+### Step 3: Once the data is processed and ready for analysis, perform the following analysis:
 
 [A] (must complete all to pass)
 
